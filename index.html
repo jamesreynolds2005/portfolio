@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content glass-panel">
+                <h1>Hi, I'm <span class="highlight">James S (Renny)</span></h1>
+                <p>A passionate developer creating beautiful, modern web experiences. Also learning AWS Cloud
+                    Architecture and producing music with Ableton.</p>
+                <a href="#skills" class="glass-btn">View My Skills</a>
+            </div>
+            <div class="hero-image glass-panel">
+                <img src="avatar.png" alt="My Avatar" class="hero-avatar">
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section glass-panel">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fa-solid fa-code skill-icon"></i>
+                            <h3>Software Engineering</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Web Development, HTML, CSS, JavaScript, and Java.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card glass-panel">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fa-solid fa-cloud skill-icon"></i>
+                            <h3>Cloud & Architecture</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Problem Solving and currently learning AWS Cloud Solution Architecture.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card glass-panel">
+                    <div class="skill-card-inner">
+                        <div class="skill-card-front">
+                            <i class="fa-solid fa-music skill-icon"></i>
+                            <h3>Audio Production</h3>
+                        </div>
+                        <div class="skill-card-back">
+                            <p>Music Production (Ableton) and Audio Editing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title glass-panel">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-panel">
+                    <div class="project-img placeholder-img">
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>MannLedger | Decentralized Land Registry</h3>
+                        <p>A blockchain-based land registry web application designed to ensure secure, transparent, and
+                            tamper-proof property records.</p>
+                        <p style="margin-bottom: 15px; font-size: 0.9em; color: var(--accent);"><strong>Tech
+                                Stack:</strong> Blockchain, JavaScript, Web Development</p>
+                        <a href="https://github.com/jamesreynolds2005/mannledger" target="_blank"
+                            class="glass-btn small-btn">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card glass-panel">
+                    <div class="project-img placeholder-img">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chordpad</h3>
+                        <p>A web application for music production and exploring chords.</p>
+                        <p style="margin-bottom: 15px; font-size: 0.9em; color: var(--accent);"><strong>Tech
+                                Stack:</strong> Web Technologies</p>
+                        <div style="display: flex; gap: 10px;">
+                            <a href="https://github.com/jamesreynolds2005/chord-pad.git" target="_blank"
+                                class="glass-btn small-btn">GitHub</a>
+                            <a href="https://chord-pad.web.app/" target="_blank" class="glass-btn small-btn">Live
+                                App</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section glass-panel">
+            <h2>Get In Touch</h2>
+            <p>Ready to collaborate on something cool?</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="mailto:jamesreynolds3108@gmail.com" class="glass-btn">Email Me</a>
+                <a href="https://www.linkedin.com/in/james-reynolds-341958304" target="_blank"
+                    class="glass-btn">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
